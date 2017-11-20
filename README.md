@@ -2,6 +2,12 @@
 
 A set of React Components designed to be imported in other desired personal Apps
 
+## Development
+
+* `npm start`
+* `npm run build`
+* `npm test`
+
 # Storybook
 
 This project comes with react storybook installed for you to be able to see the components working during local development.

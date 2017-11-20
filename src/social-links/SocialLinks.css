@@ -1,0 +1,22 @@
+
+.social-links ul {
+	list-style: none;
+	text-align: center;
+}
+
+.social-links > ul > a:visited {
+	color: #cdcdcd;
+}
+
+.social-links > ul > a:active {
+	color: #cdcdcd;
+}
+
+.social-links > ul > a:hover {
+	color: gray;
+}
+
+.social-links > ul > * {
+	font-size: 40px;
+	padding-right: 10px;
+}

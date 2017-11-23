@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Signature from '../signature/Signature';
-import Copyright from '../copyright/Copyright';
-import './Footer.css';
+import Signature from '../signature';
+import Copyright from '../copyright';
+import './index.css';
 
 // TODO: Have themes in here
 

@@ -5,9 +5,10 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import { withInfo, setDefaults } from '@storybook/addon-info';
 
-import Header from '../src/header/Header';
-import Footer from '../src/footer/Footer';
-import Signature from '../src/signature/Signature';
+
+import Header from '../src/header';
+import Footer from '../src/footer';
+import Signature from '../src/signature';
 import Image from '../src/image'
 
 setDefaults({

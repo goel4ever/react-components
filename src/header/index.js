@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Logo from '../logo/Logo';
 import MenuBar from '../menu-bar/MenuBar';
 
-import './Header.css';
+import './index.css';
 
 /**
  * Properties:

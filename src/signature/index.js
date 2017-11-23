@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import SocialLinks from '../social-links/SocialLinks';
+import SocialLinks from '../social-links';
 
-import './Signature.css';
+import './index.css';
 
 class Signature extends Component {
 	render() {

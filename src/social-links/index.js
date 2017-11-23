@@ -5,7 +5,7 @@ import FaGithub from 'react-icons/lib/fa/github';
 import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
 import FaTwitterSquare from 'react-icons/lib/fa/twitter-square';
 
-import './SocialLinks.css';
+import './index.css';
 
  class SocialLinks extends Component {
      render() {

@@ -21,3 +21,7 @@ This project comes with react storybook installed for you to be able to see the 
 
 * `npm run storybook`
 * `open http://localhost:9009/`
+
+## Storybook Add-on
+
+* `npm i -D @storybook/addon-info` from [Add-on Info](https://github.com/storybooks/storybook/tree/master/addons/info)

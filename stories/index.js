@@ -3,6 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import { withInfo } from '@storybook/addon-info';
 
 import Header from '../src/header/Header';
 import Footer from '../src/footer/Footer';
@@ -10,8 +11,17 @@ import Signature from '../src/signature/Signature';
 import Image from '../src/image'
 
 storiesOf('Header', module)
-  .add('Base', () => <Header />);
-  // .add('with some emoji', () => <Header />);
+  .add('Base', withInfo(`
+      description or documentation about my component, supports markdown
+
+      ~~~js
+      <Header />
+      ~~~
+
+    `)(() =>
+      <Header />
+    )
+  );
 
 storiesOf('Footer', module)
   .add('Base', () => <Footer />);

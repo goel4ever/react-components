@@ -1,15 +1,10 @@
 {
   "name": "react-components",
   "description": "A set of React Components designed to be imported in other desired personal Apps",
-  "repository": "https://github.com/goel4ever/react-components.git",
   "version": "0.1.0",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-icons": "^2.2.5",
-    "react-scripts": "1.0.13"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goel4ever/react-components.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,9 +14,22 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
+  "author": "Anshul Goel <dec.anshul@gmail.com> (http://goel4ever.github.io/)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-scripts": "1.0.13"
+  },
   "devDependencies": {
     "@storybook/react": "^3.2.16",
     "@storybook/addon-actions": "^3.2.16",
     "@storybook/addon-links": "^3.2.16"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/goel4ever/react-components/issues"
+  },
+  "homepage": "https://github.com/goel4ever/react-components#readme"
 }

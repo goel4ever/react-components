@@ -4,7 +4,7 @@ import './index.css';
 
 class Button extends Component {
   render() {
-    const style = `btn ${this.props.type} ${this.props.animation}`;
+    const style = `btn ${this.props.type}`;
     return (
       <button className={style}>
         <span>{this.props.title}</span>
@@ -16,7 +16,7 @@ class Button extends Component {
 Button.propTypes = {
   title: PropTypes.string.isRequired,
   type:  PropTypes.string,
-  animation:  PropTypes.string,
+  type:  PropTypes.string,
 }
 
 Button.defaultProps = {

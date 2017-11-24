@@ -11,6 +11,7 @@ import Footer from '../src/footer';
 import Signature from '../src/signature';
 import Image from '../src/image';
 import Button from '../src/button';
+import Text from '../src/input';
 
 setDefaults({
   header: false,  // Toggles display of header with component name and description
@@ -46,3 +47,7 @@ storiesOf('Button', module)
   .add('Success', () => <Button title="Continue" type="success" />)
   .add('Animate Arrow', () => <Button title="Continue" animation="arrow" />)
   .add('Animate Ripple', () => <Button title="Continue" animation="ripple" />);
+
+storiesOf('Text', module)
+  .addDecorator((story, context) => withInfo('')(story)(context))
+  .add('Base', () => <Text id="txtName" name="testName" placeholder="Enter value . . ." />);

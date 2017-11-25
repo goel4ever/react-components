@@ -1,0 +1,21 @@
+/*.social-media {
+	list-style: none;
+	text-align: center;
+}*/
+
+.social-media > a:visited {
+	color: #cdcdcd;
+}
+
+.social-media > a:active {
+	color: #cdcdcd;
+}
+
+.social-media > a:hover {
+	color: gray;
+}
+
+.social-media > * {
+	font-size: 40px;
+	padding-right: 10px;
+}

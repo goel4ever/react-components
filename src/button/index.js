@@ -7,7 +7,7 @@ class Button extends Component {
     const style = `btn ${this.props.type}`;
     return (
       <button className={style}>
-        <span>{this.props.title}</span>
+        <span className={this.props.animation}>{this.props.title}</span>
       </button>
     );
   }
@@ -16,7 +16,7 @@ class Button extends Component {
 Button.propTypes = {
   title: PropTypes.string.isRequired,
   type:  PropTypes.string,
-  type:  PropTypes.string,
+  animation:  PropTypes.string,
 }
 
 Button.defaultProps = {

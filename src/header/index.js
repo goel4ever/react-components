@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import MenuBar from '../menu-bar/MenuBar';
-import Image from '../image';
+import { Image } from '../image';
 
 import './index.css';
 

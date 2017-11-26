@@ -63,4 +63,4 @@ SocialMedia.defaultProps = {
   shape: 'circle'
 }
 
-export default SocialMedia;
+export {SocialMedia};

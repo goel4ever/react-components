@@ -23,4 +23,4 @@ Button.defaultProps = {
   type: 'success'
 }
 
-export default Button;
+export { Button };

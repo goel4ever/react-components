@@ -5,19 +5,13 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import { withInfo, setDefaults } from '@storybook/addon-info';
 
-import FaGithub from 'react-icons/lib/fa/github';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
-import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
-import FaTwitterSquare from 'react-icons/lib/fa/twitter-square';
-import FaFacebookSquare from 'react-icons/lib/fa/facebook-square';
-
 import Header from '../src/header';
 import Footer from '../src/footer';
 import Signature from '../src/signature';
-import Image from '../src/image';
-import Button from '../src/button';
-import Text from '../src/input';
-import SocialMedia from '../src/social-media';
+import { Image } from '../src/image';
+import { Button } from '../src/button';
+import { Text } from '../src/input';
+import { SocialMedia } from '../src/social-media';
 
 setDefaults({
   header: false,  // Toggles display of header with component name and description

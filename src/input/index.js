@@ -16,4 +16,4 @@ Text.propTypes = {
   placeholder: PropTypes.string
 }
 
-export default Text;
+export { Text };

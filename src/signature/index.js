@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SocialMedia from '../social-media';
+import {SocialMedia} from '../social-media';
 
 import './index.css';
 
